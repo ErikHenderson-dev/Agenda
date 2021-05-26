@@ -1,0 +1,16 @@
+##### vscode #####
+.vscode/*
+
+##### django #####
+__pycache__/
+
+##### ambiente virtual #####
+
+
+##### sqlite #####
+db.sqlite3
+db.sqlite3-journal
+
+
+##### env #####
+.env
