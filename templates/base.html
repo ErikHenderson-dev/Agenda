@@ -11,18 +11,21 @@
 
   {% include 'parciais/_nav.html' %}
 
+  
+
   <!-- Page Content -->
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
+        <div class="mt-2">
+          {% include 'parciais/_message.html' %}
+
+        </div>
+        
         {% block conteudo%} {%endblock%}
       </div>
     </div>
   </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <!-- <script src="static 'vendor/jquery/jquery.slim.min.js'%}"></script>
-  <script src="static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script> -->
 
 </body>
 
